@@ -24,14 +24,14 @@ class MY_Controller extends CI_Controller
         $this->load->library('session');
         $this->load->library('Auth');
         $this->load->helper('url');
-        
+      
         $controller = strtolower($this->router->fetch_class());
         $method = strtolower($this->router->fetch_method());
         
         if (empty($this->name)) {
             $this->name = get_class($this);
         }
-
+        
         if (!$this->auth->is_authenticated()) {
             if (!(($controller == 'user') && (in_array($method, array('login', 'logout'))))) {
                 $message = 'Tidak dapat mengakses. Anda belum login';

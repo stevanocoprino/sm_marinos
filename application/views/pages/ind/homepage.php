@@ -4,7 +4,7 @@
 															
             <div class="container">
                 <div class="masthead-heading text-uppercase" style="-webkit-text-stroke: 2px #780000;font-family: sans;color:#e4e4e4"><?=$row["welcome_text"]?></div>
-                <!-- <div class="masthead-subheading" style="-webkit-text-stroke: 2px #e5e5e5;font-family: sans;color:#212529"><?=$row["deskripsi"]?></div> -->
+                <!-- <div class="masthead-subheading" style="-webkit-text-stroke: 2px #e5e5e5;font-family: sans;color:#212529"><?=$row["deskripsi".$_SESSION["tbl"]]?></div> -->
             </div>
 			 
         </header>
@@ -33,8 +33,8 @@
                                 </center>
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading"><?=$row["portfolio_nm"]?></div>
-                                <div class="portfolio-caption-subheading text-muted"><?=$row["deskripsi"]?></div>
+                                <div class="portfolio-caption-heading"><?=$row["portfolio_nm".$_SESSION["tbl"]]?></div>
+                                <div class="portfolio-caption-subheading text-muted"><?=$row["deskripsi".$_SESSION["tbl"]]?></div>
                             </div>
                         </div>
                     </div>
@@ -55,8 +55,8 @@
 															?>
                     <div class="col-md-4">
                             <img class="mx-auto rounded-circle" src="<?php echo base_url()?>assets/img_service/<?=$row["logo"]?>" style="height:4em" alt="..." />
-                        <h4><?=$row["service_nm"]?></h4>
-                        <p><?=$row["deskripsi"]?></p>
+                        <h4><?=$row["service_nm".$_SESSION["tbl"]]?></h4>
+                        <p><?=$row["deskripsi".$_SESSION["tbl"]]?></p>
                     </div>
 				<?php } ?>
                 
@@ -82,9 +82,9 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4><?=$row["tahun"]?></h4>
-                                <h4 class="subheading"><?=$row["about_nm"]?></h4>
+                                <h4 class="subheading"><?=$row["about_nm".$_SESSION["tbl"]]?></h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted"><?=$row["deskripsi"]?></p></div>
+                            <div class="timeline-body"><p class="text-muted"><?=$row["deskripsi".$_SESSION["tbl"]]?></p></div>
                         </div>
                     </li>
                     </li>
@@ -120,8 +120,8 @@
                         <div class="team-member">
 						
                             <img class="mx-auto rounded-circle" src="<?php echo base_url()?>assets/img_team/<?=$row["foto"]?>" alt="..." />
-                            <h4> <?=$row["nama"]?> <h4/>
-                            <p class="text-muted"><?=$row["profesi"]?></p>
+                            <h4> <?=$row["nama".$_SESSSION["tbl"]]?> <h4/>
+                            <p class="text-muted"><?=$row["profesi".$_SESSSION["tbl"]]?></p>
                             <a class="btn btn-dark btn-social mx-2" href="<?=$row["link_twitter"]?>" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="<?=$row["link_fb"]?>" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="<?=$row["link_in"]?>" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>

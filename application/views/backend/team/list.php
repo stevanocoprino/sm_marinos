@@ -27,7 +27,7 @@
                                         </ul>
                                     </div>
 
-                        			<h4 class="header-title m-t-0 m-b-30">LIST TEAM</h4>
+                        			<h4 class="header-title m-t-0 m-b-30">LIST Legality</h4>
 									
 									<a href="<?=base_url("backend/tambah_team")?>" data-toggle="tooltip" data-placement="top" title="Tambah Menu" class="btn btn-warning btn-icon"><i class="zmdi zmdi-edit"></i> Tambah
 									</a>

@@ -32,6 +32,13 @@
                         <li class="nav-item"><a class="nav-link" href="<?php echo base_url()?>about" style="color:black">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="<?php echo base_url()?>team" style="color:black">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="<?php echo base_url()?>kontak" style="color:black">Contact</a></li>
+                        <li class="nav-item"><span class="nav-link"><?php if(isset($_SESSION["tbl"]) && $_SESSION["tbl"]=="_en"){
+                            echo "<a style='color:black;text-decoration: none;' href='#'>EN</a> <n style='color:black'>|</n> <a style='color:black' href='".base_url("home/lang/id")."'>ID</a>";
+                        }
+                        else{
+                            echo "<a style='color:black' href='".base_url("home/lang/en")."'>EN</a> <n style='color:black'>|</n> <a style='color:black;text-decoration: none;' href='#'>ID</a>";
+                        }
+                        ?></span></li>
                     </ul>
                 </div>
             </div>

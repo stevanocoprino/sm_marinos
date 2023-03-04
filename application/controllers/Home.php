@@ -8,8 +8,16 @@ class Home extends CI_Controller {
 		date_default_timezone_set('Asia/Jakarta');
 		if(!isset($_SESSION["lang"]))
 		{
+			
 			$_SESSION["lang"]="ind";
+			
 		}
+
+		if(!isset($_SESSION["tbl"]))
+		{
+			$_SESSION["tbl"]="";
+		}
+		
 		//$data["url_encode"]=$this->load->view('page/url_encode','' , true);
     }
 	
@@ -27,6 +35,18 @@ class Home extends CI_Controller {
 		$this->load->view('pages/'.$_SESSION["lang"].'/header');
 		$this->load->view('pages/'.$_SESSION["lang"].'/homepage');
 		$this->load->view('pages/'.$_SESSION["lang"].'/footer');
+	}
+	public function lang($id){
+
+		if($id=="id")
+		{
+			$_SESSION["tbl"]="";
+		}
+		else{
+			$_SESSION["tbl"]="_en";
+		}
+
+		header('Location: ' . $_SERVER['HTTP_REFERER']);
 	}
 	public function beranda(){	
 	//	$data="";

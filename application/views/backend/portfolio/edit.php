@@ -26,7 +26,7 @@
                                         </ul>
                                     </div>
 
-                        			<h4 class="header-title m-t-0 m-b-30">Edit Portfolio</h4>
+                        			<h4 class="header-title m-t-0 m-b-30">Edit Services</h4>
 
 									<?php
 

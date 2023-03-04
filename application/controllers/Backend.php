@@ -90,8 +90,8 @@ class Backend extends MY_Controller {
 			$html["message"]="OK";
 			
 		}
-		// echo json_encode($html);
-		redirect("backend/index");
+		echo json_encode($html);
+		// redirect("backend/index");
 		
 	}
 	

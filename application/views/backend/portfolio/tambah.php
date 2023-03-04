@@ -45,12 +45,12 @@
                                     <div class="col-lg-12">
 										
 										<div class="form-group col-lg-6">
-                                            <label>Portfolio Nama [ IND ]</label>
+                                            <label>Services Nama [ IND ]</label>
                                             <input class="form-control" name="portfolio[portfolio_nm]" placeholder="Portfolio Nama">
 										</div>
 										
 										<div class="form-group col-lg-6">
-                                            <label>Portfolio Name [ EN ]</label>
+                                            <label>Services Name [ EN ]</label>
                                             <input class="form-control" name="portfolio[portfolio_nm_en]" placeholder="Portfolio Name">
 										</div>
 										

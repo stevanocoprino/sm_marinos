@@ -26,7 +26,7 @@
                                         </ul>
                                     </div>
 
-                        			<h4 class="header-title m-t-0 m-b-30">Edit team</h4>
+                        			<h4 class="header-title m-t-0 m-b-30">Edit Legality</h4>
 
 									<?php
 
@@ -51,8 +51,17 @@
                                             <input class="form-control" name="team[nama]" value="<?php if(isset($team['nama'])){ echo $team['nama'];} ?>" placeholder=""></div>
 											
 										<div class="form-group col-lg-6">
-                                            <label>Profesi</label>
+                                            <label>Nama EN</label>
+                                            <input class="form-control" name="team[nama_en]" value="<?php if(isset($team['nama'])){ echo $team['nama'];} ?>" placeholder=""></div>
+											
+										<div class="form-group col-lg-6">
+                                            <label>Deskripsi</label>
                                             <input class="form-control" name="team[profesi]" value="<?php if(isset($team['profesi'])){ echo $team['profesi'];} ?>" placeholder=""></div>
+                                        
+											
+										<div class="form-group col-lg-6">
+                                            <label>Deskripsi EN</label>
+                                            <input class="form-control" name="team[profesi_en]" value="<?php if(isset($team['profesi'])){ echo $team['profesi'];} ?>" placeholder=""></div>
                                         
 										<div class="form-group col-lg-6">
                                             <label>Link Facebook</label>

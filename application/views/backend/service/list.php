@@ -27,7 +27,7 @@
                                         </ul>
                                     </div>
 
-                        			<h4 class="header-title m-t-0 m-b-30">LIST SERVICE</h4>
+                        			<h4 class="header-title m-t-0 m-b-30">LIST Why Us</h4>
 									
 									<a href="<?=base_url("backend/tambah_service")?>" data-toggle="tooltip" data-placement="top" title="Tambah Menu" class="btn btn-warning btn-icon"><i class="zmdi zmdi-edit"></i> Tambah
 									</a>
@@ -35,9 +35,9 @@
                                     <table style="max-width:100% !important;width:100% !important;font-size:12px !important;display:block;position:relative;" class="datatable table col-lg-12" >
                                         <thead>
                                             <tr>
-                                                <th width="20%">ID service</th>
-                                                <th width="15%">Nama Service [ IND ]</th>
-												<th width="15%">Name Service [ EN ]</th>
+                                                <th width="20%">ID Why Us</th>
+                                                <th width="15%">Nama Why Us [ IND ]</th>
+												<th width="15%">Name Why Us [ EN ]</th>
 												<th width="15%">Deskripsi</th>
 												<th width="15%">Description</th>
 												<th width="15%">Logo</th>

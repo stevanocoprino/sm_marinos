@@ -37,26 +37,26 @@
                             </li>
 							
 							<li class="has_sub igd_baru2 ">
-                                <a href="javascript:void(0);" class="waves-effect igd_baru"><i class="zmdi zmdi-view-dashboard"></i> <span> Portfolio </span><span class="menu-arrow"> </a>
+                                <a href="javascript:void(0);" class="waves-effect igd_baru"><i class="zmdi zmdi-view-dashboard"></i> <span> Services </span><span class="menu-arrow"> </a>
 								<ul class="list-unstyled">
-                                    <li><a href="<?=base_url("backend/tambah_portfolio/")?>">Tambah Porfolio</a></li>
-									<li><a href="<?=base_url("backend/list_portfolio/")?>" class="igd_baru" href="ui-buttons.html">List Portfolio</a></li>
+                                    <li><a href="<?=base_url("backend/tambah_portfolio/")?>">Tambah Services</a></li>
+									<li><a href="<?=base_url("backend/list_portfolio/")?>" class="igd_baru" href="ui-buttons.html">List Services</a></li>
                                 </ul>
                             </li>
 							
 							<li class="has_sub igd_baru2 ">
-                                <a href="javascript:void(0);" class="waves-effect igd_baru"><i class="zmdi zmdi-view-dashboard"></i> <span> Service </span><span class="menu-arrow"> </a>
+                                <a href="javascript:void(0);" class="waves-effect igd_baru"><i class="zmdi zmdi-view-dashboard"></i> <span> Why Us </span><span class="menu-arrow"> </a>
 								<ul class="list-unstyled">
-                                    <li><a href="<?=base_url("backend/tambah_service/")?>">Tambah Porfolio</a></li>
-									<li><a href="<?=base_url("backend/list_service/")?>" class="igd_baru" href="ui-buttons.html">List Service</a></li>
+                                    <li><a href="<?=base_url("backend/tambah_service/")?>">Tambah Why Us</a></li>
+									<li><a href="<?=base_url("backend/list_service/")?>" class="igd_baru" href="ui-buttons.html">List Why Us</a></li>
                                 </ul>
                             </li>
 							
 							<li class="has_sub igd_baru2 ">
-                                <a href="javascript:void(0);" class="waves-effect igd_baru"><i class="zmdi zmdi-view-dashboard"></i> <span> Team </span><span class="menu-arrow"> </a>
+                                <a href="javascript:void(0);" class="waves-effect igd_baru"><i class="zmdi zmdi-view-dashboard"></i> <span> Legality </span><span class="menu-arrow"> </a>
 								<ul class="list-unstyled">
-                                    <li><a href="<?=base_url("backend/tambah_team/")?>">Tambah Team</a></li>
-									<li><a href="<?=base_url("backend/list_team/")?>" class="igd_baru" href="ui-buttons.html">List Team</a></li>
+                                    <li><a href="<?=base_url("backend/tambah_team/")?>">Tambah Legality</a></li>
+									<li><a href="<?=base_url("backend/list_team/")?>" class="igd_baru" href="ui-buttons.html">List Legality</a></li>
                                 </ul>
                             </li>
                             

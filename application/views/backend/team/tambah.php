@@ -26,7 +26,7 @@
                                         </ul>
                                     </div>
 
-                        			<h4 class="header-title m-t-0 m-b-30">Tambah</h4>
+                        			<h4 class="header-title m-t-0 m-b-30">Tambah Legality</h4>
 									<?php
 									if(isset($data["pesan"]))
 									{
@@ -48,10 +48,19 @@
                                             <label>Nama</label>
                                             <input class="form-control" name="team[nama]" placeholder="Nama">
 										</div>
+                                        
+										<div class="form-group col-lg-6">
+                                            <label>Nama EN</label>
+                                            <input class="form-control" name="team[nama_en]" placeholder="Nama">
+										</div>
 										
 										<div class="form-group col-lg-6">
-                                            <label>Profesi</label>
+                                            <label>Deskripsi</label>
                                             <input class="form-control" name="team[profesi]" placeholder="Profesi">
+										</div>
+										<div class="form-group col-lg-6">
+                                            <label>Deskripsi EN</label>
+                                            <input class="form-control" name="team[profesi_en]" placeholder="Profesi">
 										</div>
 										
 										<div class="form-group col-lg-6">

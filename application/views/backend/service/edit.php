@@ -26,7 +26,7 @@
                                         </ul>
                                     </div>
 
-                        			<h4 class="header-title m-t-0 m-b-30">Edit Service</h4>
+                        			<h4 class="header-title m-t-0 m-b-30">Edit Why Us</h4>
 
 									<?php
 
@@ -47,11 +47,11 @@
                                     <div class="col-lg-12">
 
 										<div class="form-group col-lg-6">
-                                            <label>Nama Service [ IND ]</label>
+                                            <label>Nama Why Us [ IND ]</label>
                                             <input class="form-control" name="service[service_nm]" value="<?php if(isset($service['service_nm'])){ echo $service['service_nm'];} ?>" placeholder=""></div>
                                         
 										<div class="form-group col-lg-6">
-                                            <label>Name Service [ EN ]</label>
+                                            <label>Name Why Us [ EN ]</label>
                                             <input class="form-control" name="service[service_nm_en]" value="<?php if(isset($service['service_nm_en'])){ echo $service['service_nm_en'];} ?>" placeholder=""></div>
                                         
 										<div class="form-group col-lg-6">

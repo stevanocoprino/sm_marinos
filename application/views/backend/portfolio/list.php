@@ -27,7 +27,7 @@
                                         </ul>
                                     </div>
 
-                        			<h4 class="header-title m-t-0 m-b-30">LIST Portfolio</h4>
+                        			<h4 class="header-title m-t-0 m-b-30">LIST Services</h4>
 									
 									<a href="<?=base_url("backend/tambah_portfolio")?>" data-toggle="tooltip" data-placement="top" title="Tambah Menu" class="btn btn-warning btn-icon"><i class="zmdi zmdi-edit"></i> Tambah
 									</a>
@@ -35,9 +35,9 @@
                                     <table style="max-width:100% !important;width:100% !important;font-size:12px !important;display:block;position:relative;" class="datatable table col-lg-12" >
                                         <thead>
                                             <tr>
-                                                <th width="20%">ID Portfolio</th>
-                                                <th width="15%">Nama Portfolio [ IND ]</th>
-												<th width="15%">Name Portfolio [ EN ]</th>
+                                                <th width="20%">ID services</th>
+                                                <th width="15%">Nama services [ IND ]</th>
+												<th width="15%">Name services [ EN ]</th>
 												<th width="15%">Deskripsi</th>
 												<th width="15%">Description</th>
 												<th width="15%">Kategori</th>
