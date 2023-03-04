@@ -1,0 +1,154 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/*
+| -------------------------------------------------------------------
+| DATABASE CONNECTIVITY SETTINGS
+| -------------------------------------------------------------------
+| This file will contain the settings needed to access your database.
+|
+| For complete instructions please consult the 'Database Connection'
+| page of the User Guide.
+|
+| -------------------------------------------------------------------
+| EXPLANATION OF VARIABLES
+| -------------------------------------------------------------------
+|
+|	['hostname'] The hostname of your database server.
+|	['username'] The username used to connect to the database
+|	['password'] The password used to connect to the database
+|	['database'] The name of the database you want to connect to
+|	['dbdriver'] The database type. ie: mysql.  Currently supported:
+				 mysql, mysqli, postgre, odbc, mssql, sqlite, oci8
+|	['dbprefix'] You can add an optional prefix, which will be added
+|				 to the table name when using the  Active Record class
+|	['pconnect'] TRUE/FALSE - Whether to use a persistent connection
+|	['db_debug'] TRUE/FALSE - Whether database errors should be displayed.
+|	['cache_on'] TRUE/FALSE - Enables/disables query caching
+|	['cachedir'] The path to the folder where cache files should be stored
+|	['char_set'] The character set used in communicating with the database
+|	['dbcollat'] The character collation used in communicating with the database
+|				 NOTE: For MySQL and MySQLi databases, this setting is only used
+| 				 as a backup if your server is running PHP < 5.2.3 or MySQL < 5.0.7
+|				 (and in table creation queries made with DB Forge).
+| 				 There is an incompatibility in PHP with mysql_real_escape_string() which
+| 				 can make your site vulnerable to SQL injection if you are using a
+| 				 multi-byte character set and are running versions lower than these.
+| 				 Sites using Latin-1 or UTF-8 database character set and collation are unaffected.
+|	['swap_pre'] A default table prefix that should be swapped with the dbprefix
+|	['autoinit'] Whether or not to automatically initialize the database.
+|	['stricton'] TRUE/FALSE - forces 'Strict Mode' connections
+|							- good for ensuring strict SQL while developing
+|
+| The $active_group variable lets you choose which connection group to
+| make active.  By default there is only one group (the 'default' group).
+|
+| The $active_record variables lets you determine whether or not to load
+| the active record class
+*/
+
+$active_group = 'default';
+$active_record = TRUE;
+
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'root';
+$db['default']['password'] = 'admindevserver';
+$db['default']['database'] = 'rsupf';
+$db['default']['dbdriver'] = 'mysqli';
+$db['default']['dbprefix'] = '';
+$db['default']['pconnect'] = TRUE;
+$db['default']['db_debug'] = TRUE;
+$db['default']['cache_on'] = FALSE;
+$db['default']['cachedir'] = '';
+$db['default']['char_set'] = 'utf8';
+$db['default']['dbcollat'] = 'utf8_general_ci';
+$db['default']['swap_pre'] = '';
+$db['default']['autoinit'] = TRUE;
+$db['default']['stricton'] = FALSE;
+/*
+$db['dbfarmasi']['hostname'] = 'localhost';
+$db['dbfarmasi']['username'] = 'farmasi';
+$db['dbfarmasi']['password'] = 'farmasi';
+$db['dbfarmasi']['database'] = 'dbfarmasi';
+$db['dbfarmasi']['dbdriver'] = 'mysqli';
+$db['dbfarmasi']['dbprefix'] = '';
+$db['dbfarmasi']['pconnect'] = TRUE;
+$db['dbfarmasi']['db_debug'] = TRUE;
+$db['dbfarmasi']['cache_on'] = FALSE;
+$db['dbfarmasi']['cachedir'] = '';
+$db['dbfarmasi']['char_set'] = 'utf8';
+$db['dbfarmasi']['dbcollat'] = 'utf8_general_ci';
+$db['dbfarmasi']['swap_pre'] = '';
+$db['dbfarmasi']['autoinit'] = TRUE;
+$db['dbfarmasi']['stricton'] = FALSE;
+*/
+$db['aplous']['hostname'] = 'localhost';
+$db['aplous']['username'] = 'root';
+$db['aplous']['password'] = '12345';
+$db['aplous']['database'] = 'aplous';
+$db['aplous']['dbdriver'] = 'mysqli';
+$db['aplous']['dbprefix'] = '';
+$db['aplous']['pconnect'] = TRUE;
+$db['aplous']['db_debug'] = TRUE;
+$db['aplous']['cache_on'] = FALSE;
+$db['aplous']['cachedir'] = '';
+$db['aplous']['char_set'] = 'utf8';
+$db['aplous']['dbcollat'] = 'utf8_general_ci';
+$db['aplous']['swap_pre'] = '';
+$db['aplous']['autoinit'] = TRUE;
+$db['aplous']['stricton'] = FALSE;
+
+
+$db['dbFO']['hostname'] = 'FO';
+$db['dbFO']['username'] = 'interface_test';
+$db['dbFO']['password'] = 'test123';
+$db['dbFO']['database'] = 'FO';
+$db['dbFO']['dbdriver'] = 'odbc';
+$db['dbFO']['dbprefix'] = '';
+$db['dbFO']['pconnect'] = TRUE;
+$db['dbFO']['db_debug'] = TRUE;
+$db['dbFO']['cache_on'] = FALSE;
+$db['dbFO']['cachedir'] = '';
+$db['dbFO']['char_set'] = 'utf8';
+$db['dbFO']['dbcollat'] = 'utf8_general_ci';
+$db['dbFO']['swap_pre'] = '';
+$db['dbFO']['autoinit'] = TRUE;
+$db['dbFO']['stricton'] = FALSE;
+$db['dbFO']['port'] = 7990;
+/*
+$db['dbFO']['hostname'] = 'FO_REAL';
+$db['dbFO']['username'] = 'sa';
+$db['dbFO']['password'] = 'mandiri';
+$db['dbFO']['database'] = 'FO';
+$db['dbFO']['dbdriver'] = 'odbc';
+$db['dbFO']['dbprefix'] = '';
+$db['dbFO']['pconnect'] = TRUE;
+$db['dbFO']['db_debug'] = TRUE;
+$db['dbFO']['cache_on'] = FALSE;
+$db['dbFO']['cachedir'] = '';
+$db['dbFO']['char_set'] = 'utf8';
+$db['dbFO']['dbcollat'] = 'utf8_general_ci';
+$db['dbFO']['swap_pre'] = '';
+$db['dbFO']['autoinit'] = TRUE;
+$db['dbFO']['stricton'] = FALSE;
+$db['dbFO']['port'] = 7990;*/
+
+$db['dbFARMASI']['hostname'] = 'FARMASI';
+$db['dbFARMASI']['username'] = 'test_inv';
+$db['dbFARMASI']['password'] = 'test123';
+$db['dbFARMASI']['database'] = 'INV';
+$db['dbFARMASI']['dbdriver'] = 'odbc';
+$db['dbFARMASI']['dbprefix'] = '';
+$db['dbFARMASI']['pconnect'] = TRUE;
+$db['dbFARMASI']['db_debug'] = TRUE;
+$db['dbFARMASI']['cache_on'] = FALSE;
+$db['dbFARMASI']['cachedir'] = '';
+$db['dbFARMASI']['char_set'] = 'utf8';
+$db['dbFARMASI']['dbcollat'] = 'utf8_general_ci';
+$db['dbFARMASI']['swap_pre'] = '';
+$db['dbFARMASI']['autoinit'] = TRUE;
+$db['dbFARMASI']['stricton'] = FALSE;
+$db['dbFARMASI']['port'] = 7990;
+
+
+
+/* End of file database.php */
+/* Location: ./application/config/database.php */
